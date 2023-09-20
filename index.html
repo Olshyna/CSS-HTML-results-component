@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Results summary component</title>
+    <link rel="icon" type="image/x-icon" href="/resources/favicon-32x32.png" />
+    <link href="./resources/css/index.css" type="text/css" rel="stylesheet" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@400;500;700;800&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <div class="container">
+      <div class="box overlay">
+        <h1>Your Result</h1>
+        <div class="circle">
+          <p class="result"><span class="count">76</span><br />of 100</p>
+        </div>
+        <article>
+          <h2>Great</h2>
+          <p class="description">
+            You scored higher than 65% of the people who have taken these tests.
+          </p>
+        </article>
+      </div>
+      <div class="box underlay">
+        <h1>Summary</h1>
+        <div class="table">
+          <ul>
+            <li class="reaction">
+              <div class="col col-1">
+                <img
+                  src="./resources/icon-reaction.svg"
+                  alt="icon reaction"
+                />Reaction
+              </div>
+              <div class="col col-2"><span class="rating">80</span> / 100</div>
+            </li>
+            <li class="memory">
+              <div class="col col-1">
+                <img
+                  src="./resources/icon-memory.svg"
+                  alt="icon memory"
+                />Memory
+              </div>
+              <div class="col col-2"><span class="rating">92</span> / 100</div>
+            </li>
+            <li class="verbal">
+              <div class="col col-1">
+                <img
+                  src="./resources/icon-verbal.svg"
+                  alt="icon verbal"
+                />Verbal
+              </div>
+              <div class="col col-2"><span class="rating">61</span> / 100</div>
+            </li>
+            <li class="visual">
+              <div class="col col-1">
+                <img
+                  src="./resources/icon-visual.svg"
+                  alt="icon visual"
+                />Visual
+              </div>
+              <div class="col col-2"><span class="rating">72</span> / 100</div>
+            </li>
+          </ul>
+        </div>
+        <div class="button">
+          <button class="btn">Continue</button>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
